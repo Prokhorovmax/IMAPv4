@@ -1,0 +1,51 @@
+Delivered-To: prokhorov.ma@mail.ru
+Return-path: <robot@mlrmr.com>
+Received-SPF: pass (mx290.i.mail.ru: domain of mlrmr.com designates 188.93.63.64 as permitted sender) client-ip=188.93.63.64; envelope-from=robot@mlrmr.com; helo=mx4.mlrmr.com;
+Received: from [188.93.63.64] (port=36938 helo=mx4.mlrmr.com)
+	by mx290.i.mail.ru with esmtp (envelope-from <robot@mlrmr.com>)
+	id 1jAQpW-00029N-Fp
+	for prokhorov.ma@mail.ru; Sat, 07 Mar 2020 07:12:50 +0300
+Content-Type: multipart/alternative;
+ boundary="===============7059117159741300513=="
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=e.mail.ru; s=mlr;
+	t=1583554370; bh=mA5iYC9cTnpWvlN2pRVo1LSzEBEZFM80AubFUeOo4T0=;
+	h=Subject:From:To:Date;
+	b=yzAnOWIOng5g1lmtgaH4tdfkcsexl8VVlVWeUvj2zx1gCjxsEcAh3Fm1vGqaSXuX0
+	 FFLG65vYEwLEAcg+tamVgWi/IJ/OSoVQAomIDW06A/NKXgejP2YeIY3MPzLoPl+IYe
+	 9bcWywGNB+9xE1rhuhtDEiYDm7OXnuQGdwDw7OOY=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mlrmr.com; s=mlr;
+	t=1583554370; bh=mA5iYC9cTnpWvlN2pRVo1LSzEBEZFM80AubFUeOo4T0=;
+	h=Subject:From:To:Date;
+	b=uY3cp4SQ88AKN9NYCBPKs1tWlTteGIsC5B/Aio6es/YNFcWILVSIb3bDJKRlQGACo
+	 kITRRMnCYJMoi+CuOvYve51wJcXdN39J72Y0FSIhin3Rh3hYWUi0U7oCla2Gc8XZTe
+	 c+p1jzGgkdSAgjKpiWMAFIuJfuBGma4h1qJn9zJw=
+MIME-Version: 1.0
+Subject:
+ =?utf-8?b?0KPQt9C90LDQudGC0LUg0L4g0YHRg9C/0LXRgNCy0L7Qt9C80L7QttC90L7RgdGC?=
+ =?utf-8?b?0Y/RhSDQn9C+0YfRgtGLIE1haWwucnU=?=
+X-Sender: robot@mlrmr.com
+From: =?utf-8?b?0J/QvtGH0YLQsCBNYWlsLnJ1?= <welcome@e.mail.ru>
+To: prokhorov.ma@mail.ru
+Date: Sat, 07 Mar 2020 04:12:50 -0000
+Message-ID: <158355437020.3491.4304601765236837243@mlrmr.com>
+X-Mailer-Send-UUID: 78df7b8d-3858-40de-a464-482595e2a418
+X-Mailer-Letter: 3615
+X-Mailer-Language: ru
+Feedback-ID: 3615:42:85:mlrmr.com
+X-Mailer-Post: 42
+X-Mailer-Post-Type: C
+Precedence: bulk
+X-Mailru-Msgtype: gn3615
+X-4C001BE2: 1
+X-7564579A: 646B95376F6C166E
+X-77F55803: 0664F0F605133E75A2EE35046ED1CA46D065BFE6A7F09A9CE61CB6C9967979A4C52EEC4B88CD70E3B9FF1E6F71FE0A79E063AFB27EE5FB14
+X-7FA49CB5: FF5795518A3D127A4AD6D5ED66289B5259CC434672EE6371C2A783ECEC0211AD4AD6D5ED66289B524E70A05D1297E1BBAC83A81C8FD4AD239742502CCDD46D0DBC84CEAF2DB33E17AC83A81C8FD4AD23D82A6BABE6F325ACE7DDDDC251EA7DAB1B59CA4C82EFA658F9EB58A936EE0CDC56E849B41B719D80CB5012B2E24CD356
+X-D57D3AED: Y8kq8+OzVoxvgW9Op3aR8JIWkI04tNS9G0g+gzS0PKeJDOBrL//rLYldd2avYxhfs9M+DuXTOBSH/SnnzuO3ddisQ15P6iVseqrIhHPnkjykk407DoAWYA==
+X-F696D7D5: i7Nnqo5S/CH2SuQUWDW0zb4KM/pF76Dx3pEk7mqQmVJu8PcZoQkgg2Q0JI5HV8bU
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=welcome@e.mail.ru
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=pass (mx290.i.mail.ru: domain of mlrmr.com designates 188.93.63.64 as permitted sender) smtp.mailfrom=robot@mlrmr.com smtp.helo=mx4.mlrmr.com;
+	 dkim=pass header.d=e.mail.ru;
+	 dkim=pass header.d=mlrmr.com; dmarc=pass header.from=welcome@e.mail.ru
+X-Mailru-Intl-Transport: d,84f2145
