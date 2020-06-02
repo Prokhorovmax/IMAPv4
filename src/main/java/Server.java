@@ -2,14 +2,11 @@
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Server extends Thread {
 
     private int port;
     private ServerSocket serverSocket = null;
-    List<Socket> clients = new ArrayList<>();
 
 
     public static void main(String[] args) {
@@ -22,7 +19,7 @@ public class Server extends Thread {
         }
     }
 
-    public Server(int host_port) {
+    private Server(int host_port) {
         this.port = host_port;
     }
 
@@ -43,7 +40,6 @@ public class Server extends Thread {
             try {
                 clientSocket = serverSocket.accept();
                 System.out.println("NEW CLIENT CONNECTED.");
-                clients.add(clientSocket);
             } catch (IOException e) {
                 System.err.println("CANNOT ACCEPT NEW CLIENT!");
                 System.out.println("CLOSING SERVER.");
@@ -56,7 +52,6 @@ public class Server extends Thread {
         }
     }
 
-
     private void closeServer() {
         try {
             serverSocket.close();
@@ -66,5 +61,4 @@ public class Server extends Thread {
         }
         System.out.println("SERVER STOPPED WORKING");
     }
-
 }
